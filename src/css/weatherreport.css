@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+.weatherreport {
+  color: white;
+  float: left;
+  width: 82.2%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 200px auto auto;
+}
+
+.weatherreport .img {
+  width: 175px;
+  height: 175px;
+  /* background-color: aqua; */
+  margin: 12.5px;
+}
+img {
+  width: 175px;
+  height: 175px;
+  padding-top: 20px;
+}
+
+.weatherreport .tempbox {
+  /* background-color: rgba(0, 255, 0, 0.4); */
+  margin: 12.5px;
+  padding: 12.5px;
+}
+
+.weatherreport p {
+  padding: 10px;
+}
+
+.weatherreport .descbox {
+  /* background-color: rgba(255, 255, 0, 0.4); */
+  margin: 12.5px;
+  padding: 12.5px;
+  text-align: right;
+}
+
+.tempbox .temp {
+  /* background-color: rgba(255, 255, 0, 0.4); */
+  font-size: 40px;
+  font-weight: 900;
+  float: left;
+  height: 150px;
+  padding-top: 45px;
+  /* display: block; */
+}
+
+.tempbox .temp-max,
+.tempbox .temp-min {
+  text-align: right;
+}
+
+.descbox .city {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.descbox .weather {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.extras {
+  color: white;
+  float: left;
+  width: 82.2%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.wind {
+  padding: 15px;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.wind p {
+  padding: 5px;
+}

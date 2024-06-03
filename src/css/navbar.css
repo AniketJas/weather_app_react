@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-image: url("../images/login-bg.jpg");
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar input,
+.navbar button {
+  padding: 5px 10px;
+  height: fit-content;
+}
+
+.navbar input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+}
+
+.navbar button {
+  background-color: #ff570a;
+  color: white;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

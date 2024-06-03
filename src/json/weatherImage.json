@@ -1,0 +1,38 @@
+[
+    {
+        "desc":"clear sky",
+        "img":"sunny.png"
+    },
+    {
+        "desc":"few clouds",
+        "img":"partly-cloudy.png"
+    },
+    {
+        "desc":"scattered clouds",
+        "img":"cloudy.png"
+    },
+    {
+        "desc":"broken clouds",
+        "img":"cloudy.png"
+    },
+    {
+        "desc":"shower rain",
+        "img":"hailstorm.png"
+    },
+    {
+        "desc":"rain",
+        "img":"rainy.png"
+    },
+    {
+        "desc":"thunderstorm",
+        "img":"thunderstorm.png"
+    },
+    {
+        "desc":"snow",
+        "img":"snow.png"
+    },
+    {
+        "desc":"mist",
+        "img":"mist.png"
+    }
+]
